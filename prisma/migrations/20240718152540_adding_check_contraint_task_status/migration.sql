@@ -1,0 +1,1 @@
+ALTER TABLE "Task" ADD CONSTRAINT "Task_status_check" CHECK ("status" IN ('TODO', 'IN_PROGRESS', 'DONE'));
